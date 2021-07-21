@@ -8,5 +8,5 @@ test("Add 1 to each item in myArray", function () {
   const output = addOne(myArray);
 
   expect(output).toEqual(expected);
-  //expect(myArray).toEqual(unchanged);
+  expect(myArray).toEqual(unchanged);
 });

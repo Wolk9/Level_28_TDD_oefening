@@ -1,6 +1,8 @@
-const addOne = function (numbers) {
-  numbers = numbers + 1;
-  return numbers;
+const addOne = function (nums) {
+  for (i = 0; i < nums.length; i++) {
+    nums[i] = nums[i] + 1;
+  }
+  return nums;
 };
 
 module.exports = addOne;
